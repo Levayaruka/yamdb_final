@@ -10,7 +10,7 @@ services:
     env_file:
       - .env
   web:
-    image: levayaruka/yamdb_final:v3
+    image: levayaruka/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
