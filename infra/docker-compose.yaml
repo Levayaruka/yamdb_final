@@ -8,9 +8,9 @@ services:
       - /var/lib/postgresql/data/
 
     env_file:
-      - ./.env
+      - .env
   web:
-    image: levayaruka/yamdb_final:latest
+    image: levayaruka/yamdb_final:v3
     restart: always
     volumes:
       - static_value:/app/static/
@@ -18,7 +18,7 @@ services:
     depends_on:
       - db
     env_file:
-      - ./.env
+      - .env
 
   nginx:
 
