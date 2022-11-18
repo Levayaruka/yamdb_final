@@ -1,5 +1,5 @@
 ### Адрес
-http://130.193.53.105/redoc/
+http://130.193.51.9/redoc
 # yamdb_final
 ![example workflow](https://github.com/levayaruka/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ### Описание
