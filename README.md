@@ -1,9 +1,9 @@
+### Адрес
+http://130.193.53.105/redoc/
 # yamdb_final
 ![example workflow](https://github.com/levayaruka/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ### Описание
 CI/CD и docker-compose к проекту раннему api_yamdb
-### Адрес
-http://127.0.0.1/admin
 ### Запуск проекта в dev-режиме
 - В директории infra создайте файл .env и заполните по образцу
 ```
